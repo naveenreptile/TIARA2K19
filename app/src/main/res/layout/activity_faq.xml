@@ -7,6 +7,7 @@
     tools:context=".FAQ">
 
     <ScrollView
+        android:id="@+id/scr1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
@@ -22,46 +23,62 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/bcsebut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CSE"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/becebut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ECE"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/beeebut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="EEE"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/bmechbut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MECH"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/bbsbut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BASIC"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/bcivbut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CIV"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/bmbabut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MBA"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/bmcabut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MCA"
                 android:background="@drawable/outlinebuttonnew"/>
             <Button
+                android:id="@+id/barcbut"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ARC"
@@ -71,4 +88,11 @@
 
         </HorizontalScrollView>
     </ScrollView>
+    <FrameLayout
+        android:id="@+id/f_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scr1">
+
+    </FrameLayout>
 </RelativeLayout>
