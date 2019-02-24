@@ -4,17 +4,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cselogo"/>
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/cselogo"/>-->
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@android:drawable/btn_star"
         android:drawableRight="@android:drawable/btn_star"
-
+        android:layout_marginTop="60dp"
         android:textSize="35sp"
         android:text="Event 1"/>
 

@@ -1,5 +1,6 @@
 package sjec.tiara2019;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -14,4 +15,6 @@ public class ecefragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.ecefragment,container,false);
     }
+
+
 }
